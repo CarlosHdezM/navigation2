@@ -204,6 +204,7 @@ def generate_launch_description() -> LaunchDescription:
             'use_composition': use_composition,
             'use_intra_process_comms': use_intra_process_comms,
             'use_respawn': use_respawn,
+            'use_localization': 'False',
             'use_keepout_zones': 'False',
             'use_speed_zones': 'False',
             'container_name': 'nav2_container',
