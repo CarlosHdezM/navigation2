@@ -3,6 +3,7 @@ find_package(benchmark REQUIRED)
 set(BENCHMARK_NAMES
   optimizer_benchmark
   controller_benchmark
+  utils_benchmark
 )
 
 foreach(name IN LISTS BENCHMARK_NAMES)
